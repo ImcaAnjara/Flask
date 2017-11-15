@@ -1,0 +1,32 @@
+
+pip install --index-url=https://pypi.python.org/simple/ NomPAQUET
+
+
+pip install --index-url=https://pypi.python.org/simple/ -r requirement.txt
+
+
+Install SQLITE:
+
+sudo apt-get install libsqlite3-dev
+pip install --index-url=https://pypi.python.org/simple/ pysqlite
+
+
+RUN VENV
+
+source ~/venvs/newproject/bin/activate
+
+
+
+GIT ON LINUX:
+
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
+
+* Install git
+* Configure
+* Creating a local repository ===> git init Mytest 
+cd Mytest
+* Creating a README file to describe the repository
+nano README(This is repository GIT)
+* Adding repository files to an index
+git add README
+git add File_project

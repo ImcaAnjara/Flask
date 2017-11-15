@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Result</title>
+		<meta charset="utf-8" />
+	</head>
+	
+	<body>
+		<h2>Here the result</h2><br>
+
+	
+      <table border = 1>
+         {% for key, value in result.iteritems() %}
+         
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+            
+         {% endfor %}
+      </table>
+      		   
+   </body>
+</html>

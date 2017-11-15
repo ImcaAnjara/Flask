@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Static : Bienvenue</title>
+		<meta charset="utf-8" />
+		<script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'hello.js') }}" ></script>
+	</head>
+	
+	<body>
+		<input type = "button" onclick = "sayHello()" value = "Say Hello" />
+   </body>
+</html>
